@@ -10,7 +10,7 @@ let roupas = [
         desconto: 15
     },
     {
-        dir: './resorce/overside_black_01.png',
+        dir: './resorce/overside_black_01.png',//aaaaa
         primary: '#222831',
         secundary: '#393E46',
         detalhe: '#00ADB5',
