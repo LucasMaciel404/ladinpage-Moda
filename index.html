@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>MODA</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="marca"><img src="./resorce/file.png" width="75px" alt="luska"></div>
+        <div class="row invert">
+            <div class="col">
+                <div class="grid" data-aos="fade-up">
+                    <!-- <div class="objeto"></div>
+                    <div class="objeto"></div>
+                    <div class="objeto"></div>
+                    <div class="objeto"></div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="promocao">10% OFF</div>
+                    <div class="modelo"><img src="./resorce/overside_black.png" data-aos="fade-in" id="roupa" alt="moço de blusa"></div>
+                </div>
+                    <div class="produto"></div>
+                    <div class="valor">R$: 100 <div class="desconto">R$: 110</div>
+                    </div>
+                    <div class="opt-modelo">
+                        <div class="tamanho"> <p>P</p> <p>M</p> <p>G</p> </div>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, 
+            startEvent: 'DOMContentLoaded', 
+            initClassName: 'aos-init', 
+            animatedClassName: 'aos-animate', 
+            useClassNames: false, 
+            disableMutationObserver: false, 
+            debounceDelay: 50, 
+            throttleDelay: 99, 
+            
+            offset: 120, 
+            delay: 0, 
+            duration: 1000, 
+            easing: 'ease', 
+            once: false, 
+            mirror: false, 
+            anchorPlacement: 'top-bottom', 
+
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
